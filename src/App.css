@@ -1,0 +1,40 @@
+/* body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+} */
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.toolkit {
+  width: 250px; /* Adjust the width of the Toolkit as needed */
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.canvas {
+  flex: 1;
+  padding: 20px;
+  /* Additional styles for the CanvasArea */
+}
